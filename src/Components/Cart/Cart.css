@@ -1,0 +1,31 @@
+.cart{
+    right: 0;
+}
+
+.cart-product{
+    display: flex;
+    justify-content:start;
+    gap: 30px;
+}
+
+
+.cart-product img{
+    height: 100px;
+    width: 100px;
+}
+
+.cart button{
+    height: fit-content;
+    border: 0;
+    background-color: transparent;
+    color: black;
+    padding: 0px 5px;
+    border-radius:5px;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+
+.cart button:hover{
+    background-color: rgba(0, 0, 0, 0.909);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    color: aliceblue;
+}
